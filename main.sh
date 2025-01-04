@@ -77,7 +77,7 @@ echo " ░                        ░                                           
 echo "================================================================================"
 echo "WARNING: This will overwrite $DISK with '$INPUT_DEVICE' $PASSES time(s)."
 echo "Block size: $BLOCK_SIZE"
-echo "ALL DATA ON THIS DEVICE WILL BE LOST."
+echo "ALL DATA ON THIS DEVICE WILL BE LOST. ARE YOU ABSOLUTELY SURE?"
 echo "================================================================================"
 
 read -p "Type YES to continue: " confirm
