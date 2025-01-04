@@ -1,4 +1,4 @@
-# Disk Wipe Script
+# Disk Wiper
 
 This script securely overwrites a specified block device (e.g., hard drive, SSD) by writing either random data or zeroed data to it multiple times. It uses the `dd` utility to perform the overwrite operation and ensures that the data is written to disk by syncing the writes.
 
